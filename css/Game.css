@@ -1,0 +1,112 @@
+/* author: Zhiping Yu, Student number: 000822513
+   created date: 2020.11.10
+   The purpose of this css file is to provide styles for different tags in the html file*/
+
+
+* {
+   box-sizing: border-box;
+ }
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    width:80%;
+    margin:auto auto;
+}
+/*Styles for the title of form*/
+#title{
+   border: solid;
+   border-radius: 25px;
+   border-color: slategrey;
+   text-align: center;
+   color:pink;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+label{
+   font-size: 25px;
+   color: cornflowerblue;
+}
+input{
+   font-size: 35px;
+   font-family: 'Times New Roman', Times, serif;
+}
+input[type=submit]{
+   background-color:rosybrown;
+   padding: 10px;
+   border-radius: 20px;
+}
+input[type=color]{
+   width:70px;
+   height:30px;
+}
+/*styles for user name and age in game webpage*/
+
+.info{
+   font-size: 25px;
+   color: blueviolet;
+}
+/*styles for error messages*/
+#error1,#error2,#error3{
+   color: red;
+   font-size:20px;
+}
+/*Styles for the HELP button*/
+#assistance{
+   
+   margin-bottom: 20px ;
+   background-color:pink;
+   font-size: 20px;
+   color: green;
+   border: 3px solid black;
+   text-align: center;
+   cursor: pointer;
+}
+
+/*Style for START and STOP buttons*/
+
+.buttons
+{
+   margin-bottom: 15px ;
+   font-size: 20px;
+   border: 2.5px solid blue;
+   background-color: ivory;
+   text-align: center;
+   width:120px;
+   padding: 5px;  
+   cursor: pointer;    
+}
+
+/*Styles for EXIT link*/
+.exits{
+   text-decoration: underline;
+   color: purple;
+   font-size: 30px;
+   display: block;
+   margin-top:40px;
+}
+/*Styles for the images in the webpage */
+#pic{
+   margin-bottom:10px;
+   display: block;
+   margin: auto auto;
+   width:20%;
+}
+
+/*Styles for the instructions under HELP button*/
+.prompt{
+   color: Red;
+   font-size: 25px;
+   margin-bottom: 10px;
+   padding-left: 5px;
+   border: 2px solid blueviolet;
+}
+/*Mobile size*/
+@media screen and (max-width: 320px) {
+   body{
+      width:100%;
+      margin:10px 10px;
+   }
+
+
+}
